@@ -9,42 +9,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!--Page Header-->
     <header class="header">
-      <nav>
-        <a href="/" class="logo header-link">
-            Web<span class="logo-1">Studio</span>
-        </a>
-        <ul class="nav-site">
-          <li class="list"><a href="./index.html" class="link active">Studio</a></li>
-          <li class="list"><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li class="list"><a href="/contacts.html" class="link">Contacts</a></li>
-        </ul>
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="/" class="logo header-link">
+                    Web<span class="logo-1">Studio</span>
+                </a>
+            <ul class="nav-site">
+                <li class="list"><a href="./index.html" class="header-link link active">Studio</a></li>
+                <li class="list"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+                <li class="list"><a href="/contacts.html" class="header-link link">Contacts</a></li>
+            </ul>
       </nav>
 
-        <ul>
+        <ul class="header-contact">
             <li class="header-list list"><a href="" class="link">info@devstudio.com</a></li>
             <li class="header-list list"><a href="" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
     <main>
-        <section class="hero">
-          <h1 class="hero-heading">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button type="button" class="button-current">
-                Request our service
-            </button>
+        <section class="hero-section">
+            <div class="hero-container container">
+                <h1 class="hero-heading">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+                <button type="button" class="button-current">
+                    Request our service
+                </button>
+            </div>
         </section>
 
       <section class="definition-section">
         <h2 class="visually-hidden">What defines us</h2>
-        <ul>
+        <ul class="definition container">
           <li class="definition-list list">
             <h3 class="definition-name">Attention to details</h3>
             <p class="definition-about">
@@ -76,34 +82,34 @@
         </ul>
       </section>
       <section class="section">
-        <h2 class="section title">What we do</h2>
-        <ul>
-          <li class="list">
-            <!--image-->
-            <img 
+            <h2 class="section-title what">What we do</h2>
+            <ul class="container pictures-container">
+                <li class="list">
+                <!--image-->
+                <img 
                 src="./images/box 1.jpg" 
                 alt="box" 
                 width="370">
-          </li>
-          <li class="list">
-            <!--image-->
-            <img 
+                </li>
+                <li class="list">
+                <!--image-->
+                <img 
                 src="./images/box 2.jpg" 
                 alt="box" 
                 width="370">
-          </li>
-          <li class="list">
-            <!--image-->
-            <img 
+                </li>
+                <li class="list">
+                <!--image-->
+                <img 
                 src="./images/box 3.jpg" 
                 alt="box" 
                 width="370">
-          </li>
-        </ul>
-      </section>
+                </li>
+            </ul>
+    </section>
       <section class="team section">
-        <h2 class="section title">Our Team</h2>
-        <ul>
+        <h2 class="section-title">Our Team</h2>
+        <ul class="container team-container">
           <li class="list">
             <!--image-->
             <div class="box">
@@ -153,17 +159,19 @@
     </main>
 
     <footer class="footer">
-      <a href="/" class="logo footer-link">Web<span class="logo-2">Studio</span></a>
-      <address>
-        <p class="address"> 
-          695 Park Ave, New York, NY 10065,
-          United States
-        </p>
-        <ul>
-            <li class="list"><a href="mailto:info@example.com" class="address-link">info@example.com</a></li>
-            <li class="list"><a href="tel:+12127724150" class="address-link">+1 212-772-4150</a></li>
-        </ul>  
-      </address>
+        <div class="container"> 
+            <a href="/" class="logo footer-link">Web<span class="logo-2">Studio</span></a>
+            <address>
+                <p class="address"> 
+                    695 Park Ave, New York, NY 10065,
+                    United States
+                </p>
+                <ul>
+                    <li class="list"><a href="mailto:info@example.com" class="address-link">info@example.com</a></li>
+                    <li class="list"><a href="tel:+12127724150" class="address-link">+1 212-772-4150</a></li>
+                </ul>  
+            </address>
+        </div>
     </footer>
   </body>
 </html>
