@@ -404,7 +404,7 @@ width: calc((100%-90px)/4)
 }
 
 .portfolio-title {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -414,7 +414,7 @@ width: calc((100%-90px)/4)
 }
 
 .portfolio--about {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.88;
     color: var(--description-text);
