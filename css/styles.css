@@ -148,6 +148,8 @@ border-bottom: 1px solid #ececec;
 .header-link, 
 .footer-link {
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 .logo {
@@ -165,6 +167,7 @@ border-bottom: 1px solid #ececec;
 
 .footer-link .logo-2 {
     color: var(--white);
+    margin-bottom: 20px;
 }
 
 .nav-site .link {
@@ -339,6 +342,7 @@ width: calc((100%-90px)/4)
 /* or 171% */
     color: var(--white);
     max-width: 231px;
+    margin-top: 20px;
    } 
 
 .address:hover,
@@ -405,6 +409,8 @@ width: calc((100%-90px)/4)
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    color: var(--ordinary-text);
 }
 
 .portfolio--about {
