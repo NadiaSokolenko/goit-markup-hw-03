@@ -91,7 +91,7 @@ img {
     border-radius: 4px;
 }
 
-.button-current {
+.button-request {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -103,6 +103,8 @@ img {
     border-radius: 4px;
     border: none;
     width: 200px;
+    height: 50px;
+    padding: 10px 19px;
 }
 
 .button:hover,
@@ -115,8 +117,8 @@ img {
 
 .header {
 display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+padding-top: 24px;
+padding-bottom: 25px;
 border-bottom: 1px solid #ececec;
 }
 
@@ -248,9 +250,13 @@ width: calc((100%-90px)/4)
 }
 
 .definition-name {
+    font-family: inherit;
     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 9.41px;
+    margin-bottom: 10px;
 }
 
 .definition-about {
@@ -290,7 +296,10 @@ width: calc((100%-90px)/4)
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
+}
+
+.team-card {
+    padding: 30px;
 }
 
 .team-name {
@@ -299,7 +308,6 @@ width: calc((100%-90px)/4)
     line-height: 1.19;
 /* identical to box height */
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -315,6 +323,10 @@ width: calc((100%-90px)/4)
     background-color: var(--dark-background);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-a-logo {
+    margin-bottom: 20px;
 }
 
 .address {
@@ -348,6 +360,10 @@ width: calc((100%-90px)/4)
 .address-link:hover,
 .address-link:focus {
     color: var(--active-text);
+}
+
+.footer-address {
+    margin-bottom: 9px;
 }
 
 /*PORTFOLIO*/
